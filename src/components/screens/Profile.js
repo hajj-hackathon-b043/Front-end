@@ -18,8 +18,6 @@ import { FaMap } from 'react-icons/fa';
 // import flag from './img/ksa.png';
 // import flag from './img/bangladesh.png';
 
-let flag = 'https://www.countryflags.io/be/flat/64.png ';
-
 const locale = {
   profileMedical: {
     en: 'Medical Center',
@@ -58,7 +56,7 @@ class Profile extends Component {
         <div
           className="top"
           style={{
-            background: 'url(' + flagUrl + ')',
+            backgroundImage: 'url(' + flagUrl + ')',
             backgroundPosition: 'center',
             backgroundSize: 'cover'
           }}>
