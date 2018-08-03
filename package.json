@@ -1,0 +1,29 @@
+{
+  "name": "front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.4.2",
+    "axios": "^0.18.0",
+    "firebase": "^5.3.0",
+    "google-map-react": "^1.0.5",
+    "normalize.css": "^8.0.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-icons": "^3.0.1",
+    "react-qr-reader": "^2.1.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "socket.io-client": "^2.1.1"
+  },
+  "scripts": {
+    "start": "npm run copy && react-scripts start",
+    "build": "npm run copy && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "copy": "rm -rf ./public/img && cp -Ri ./src/img ./public"
+  }
+}

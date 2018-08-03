@@ -1,0 +1,228 @@
+color {
+  color: #1a1b1e #61dafb #ff0033 #0f9ef2 #3a393a #6cc24a;
+}
+
+.Body {
+  background: #f1f1f1;
+  height: 100vh;
+  width: 100vw;
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #0f9ef2;
+  font-size: 1.5rem;
+  margin: auto;
+}
+.hr {
+  width: 60%;
+}
+
+.icon {
+  font-size: 8rem;
+}
+
+.body {
+  padding: 25px;
+  border-radius: 20px;
+  align-self: center;
+  margin: auto;
+  border-color: #3a393a;
+  border-style: dotted;
+  align-self: center;
+}
+
+.container {
+  height: 800px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hand {
+  color: #6cc24a;
+  position: absolute;
+  font-size: 5rem;
+  margin-top: 50px;
+}
+
+.text {
+  top: 50%;
+  font-size: 2.25rem;
+  color: #000;
+}
+
+.loading {
+  color: #61dafb;
+}
+
+.ERROR {
+  color: #ff0033;
+}
+
+/*Profile*/
+
+.top {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  background-size: cover !important;
+}
+
+.layer {
+  background-color: rgba(22, 22, 22, 0.65);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav {
+  color: #fff;
+}
+
+.Id {
+  color: #6cc24a;
+}
+
+.box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.containbox {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.Icons-select {
+  font-size: 2rem;
+  color: #000;
+}
+
+.white {
+  color: #000;
+  font-size: 1rem;
+}
+
+.bell {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.NotificationList-wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.back {
+  margin: 5px;
+}
+
+.top-text {
+  font-size: 1.25rem;
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.qustionsarea {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+}
+.sound {
+  font-size: 1.25rem;
+  color: #0f9ef2;
+}
+
+/*notification*/
+
+.NotificationList {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.notiarrow {
+  color: #000;
+  font-size: 1.25rem;
+  margin: 10px;
+}
+
+.textdiv {
+  background: #f1f1f1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.topnotilist {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  background: #f1f1f1;
+}
+
+.bubble {
+  width: 300px;
+
+  background-color: #0f9ef2;
+  color: #fff;
+  margin: 3px auto;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.25rem;
+}
+
+.navnoti {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navtextnoti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #000;
+}
